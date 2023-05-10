@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 class="cent">Atividade sobre links</h1>
+
+    <p>Você pode ir pro final da página clicando <a href="#bottom">aqui</a></p>
+
+    <ul>
+        <li><a href="pag2.html">Segunda página.</a></li>
+        <li><a href="pag3.html">Terceira página.</a></li>
+    </ul>
+    <p>Segue links para minhas redes socias:</p>
+    <ul class="sociais">
+        <li><a href="https://www.linkedin.com/login/pt">
+            <img class="img" src="img/linkedin.png" alt="linkedin">
+            </a></li>
+        <li>
+            <a href="https://www.instagram.com/">
+                <img class="img" src="img/instagram.png" alt="instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/">
+                <img class="img" src="img/github.png" alt="github">
+            </a>
+        </li>
+    </ul>
+
+    <p><a href="#" onclick="escurecerPagina()">Escurecer página></a></p>
+    <script>
+        function escurecerPagina() {
+        document.body.style.backgroundColor = "black";
+        }
+    </script>
+
+
+    <p><a href="#" onclick="clarearPagina()">Clarear página></a></p>
+    <script>
+        function clarearPagina() {
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+    <p id="bottom">FIM DA PÁGINA!</p>
+    <footer>
+
+        <p class="cent">
+            <a href="#top">Voltar ao topo</a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
